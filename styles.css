@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+}
+.nav{
+    text-align: center;
+    background-color: #303030;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10%;
+}
+.header{
+    height: 120px;
+
+}
+.header h1{
+    padding-top: 35px;
+}
+.projects{
+    text-align: left;
+    height: 235px;
+    padding: 25px;
+    position: relative;
+    flex-wrap: wrap;
+    gap: 15px;
+    background-color: #f6f6f6;
+}
+.projects h2{
+    padding-bottom: 10px;
+}
+
+.five{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.projects .proj{
+    width: 280px;
+    height: 85px;
+    border: 1px solid rgba(0, 0, 0, 0.249);
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 5px 44px 6px rgba(0, 0, 0, 0.04);
+-moz-box-shadow: 0px 5px 44px 6px rgba(0, 0, 0, 0.04);
+box-shadow: 0px 5px 44px 6px rgba(0, 0, 0, 0.04);
+}
+.three{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding-top: 15px;
+}
+.projects h4{
+    padding: 13px 0 0 13px;
+    font-weight: 700;
+}
+.projects p{
+    padding: 5px 0 0 13px;
+}
+.about{
+    text-align: left;
+    padding: 25px;
+    background-color: #e4e7ec;
+}
+.about p{
+    padding-top: 5px;
+}
+ul{
+    padding: 10px;
+    list-style-type: none;
+    list-style-type: disc;
+}
+ul li{
+    background-color: #006ffd;
+    color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+li::marker{
+    color: white;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contac{
+    width: 440px;
+    height: 500px;
+    background-color: #747474;
+    color: rgb(44, 42, 42);
+    flex-direction: column;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-top: 16px;
+}
+.contac h2{
+    padding-top: 35px;
+    padding-right: 270px;
+}
+input{
+    width: 400px;
+    height: 25px;
+}
+label {
+    padding: 20px 0 10px 20px;
+    text-align: left;
+    display: block;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    border: none;
+}
+.in input{
+    height: 100px;
+    border-radius: 4px;
+    border: none;
+}
+button{
+    width: 403px;
+    height: 30px;
+    margin-top: 30px;
+    border: none;
+    border: 1px solid white;
+    background-color: #229538;
+    color: white;
+    border-radius: 3px;
+}
+.footer{
+    background-color: rgb(45, 45, 45);
+    color: white;
+    height: 65px;
+}
+.footer p{
+    padding-top: 15px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}
